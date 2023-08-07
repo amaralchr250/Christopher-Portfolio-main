@@ -176,3 +176,7 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 } 
+/* Estilize as imagens dentro das classes "link" */
+.link img {
+  background-color: transparent; /* Define o fundo transparente */
+}
