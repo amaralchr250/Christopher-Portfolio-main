@@ -16,13 +16,14 @@ p {
   vertical-align: middle;
   color: #000000;
   font-weight: 500;
+  font-size: 15px;
   opacity: 0.8;
 }
 
 h3 {
   color: #000000;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 15px;
   opacity: 0.8;
 }
 a {
@@ -153,7 +154,7 @@ main {
 
 .card img {
   width: auto; /* Ajusta a largura da imagem automaticamente */
-  max-width: 240px; /* Define um tamanho máximo para a imagem */
+  max-width: 120px; /* Define um tamanho máximo para a imagem */
   height: auto; /* Mantém a proporção da imagem */
   margin-left: 1rem; /* Agora estamos usando margin-left para mover a imagem para a esquerda */
   margin-right: 1rem; /* Mantemos um espaçamento à direita da imagem */
@@ -164,10 +165,11 @@ main {
 }
 .percentage {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
   background: linear-gradient(to right top, #000000, #1c00f4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-right: 1rem;
 }
 .gradient-par {
   font-weight: bold;    
@@ -175,4 +177,3 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 } 
-
