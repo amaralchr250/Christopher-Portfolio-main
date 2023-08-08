@@ -145,23 +145,22 @@ main {
     rgba(255, 255, 255, 0.5)
   );
   border-radius: 1rem;
-  margin: 2rem 0rem;
-  padding: 1.2rem;
+  margin: 1rem 0;
   box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.212);
-  justify-content: space-between;
+  align-items: center;
+  overflow: hidden; /* Impede que o conteúdo ultrapasse o cartão */
 }
+
 .card img {
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  width: 110px;
+  width: auto; /* Ajusta a largura da imagem automaticamente */
+  max-width: 240px; /* Define um tamanho máximo para a imagem */
+  height: auto; /* Mantém a proporção da imagem */
+  margin-left: 1rem; /* Agora estamos usando margin-left para mover a imagem para a esquerda */
+  margin-right: 1rem; /* Mantemos um espaçamento à direita da imagem */
 }
+
 .card-info {
-  margin-left: 20px;
-  margin-right: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  flex: 1;
 }
 .percentage {
   font-weight: bold;
@@ -176,7 +175,4 @@ main {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 } 
-/* Estilize as imagens dentro das classes "link" */
-.link img {
-  background-color: transparent; /* Define o fundo transparente */
-}
+
